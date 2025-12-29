@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRATE | Game Store</title>
+
+    <!-- LEAGUE SPARTAN FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="loading">
+
+<!-- PRELOADER -->
+<div id="preloader">
+    <div class="loader-logo">KRATE</div>
+    <div class="loader-bar-container">
+        <div class="loader-bar"></div>
+    </div>
+    <p class="loader-text">INITIALIZING SYSTEM...</p>
+</div>
+
+<!-- MAIN APP -->
+<div id="app">
+
+    <!-- NAV -->
+    <nav>
+        <div class="logo">KRATE</div>
+        <div class="cart-btn">CART <span id="cart-count">0</span></div>
+    </nav>
+
+    <section class="featured">
+    <div class="featured-track" id="featured-track">
+
+        <!-- CLONE LAST -->
+        <div class="featured-slide">
+            <img src="featured/valorant.jpg" alt="Valorant">
+            <div class="featured-content">
+                <h1>VALORANT</h1>
+                <p>Tactical 5v5 FPS Shooter</p>
+                <button class="primary-btn">GET NOW</button>
+            </div>
+        </div>
+
+        <!-- REAL SLIDES -->
+        <div class="featured-slide">
+            <img src="featured/assassin'screed.jpg" alt="Assassin's Creed">
+            <div class="featured-content">
+                <h1>ASSASSIN’S CREED</h1>
+                <p>History is your playground.</p>
+                <button class="primary-btn">BUY NOW</button>
+            </div>
+        </div>
+
+        <div class="featured-slide">
+            <img src="featured/eldenring.jpg" alt="Elden Ring">
+            <div class="featured-content">
+                <h1>ELDEN RING</h1>
+                <p>Rise, Tarnished.</p>
+                <button class="primary-btn">BUY NOW</button>
+            </div>
+        </div>
+
+        <div class="featured-slide">
+            <img src="featured/gta.jpg" alt="GTA V">
+            <div class="featured-content">
+                <h1>GRAND THEFT AUTO V</h1>
+                <p>Welcome to Los Santos.</p>
+                <button class="primary-btn">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- GAMES -->
+    <main class="container">
+        <h2 class="section-title">Flash Sales</h2>
+
+        <div class="game-grid">
+
+            <div class="game-card">
+                <img src="games/eldenring.webp" class="game-image">
+                <div class="card-content">
+                    <h3>Elden Ring</h3>
+                    <p class="price">$44.39</p>
+                    <button class="add-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="games/cyberpunk.webp" class="game-image">
+                <div class="card-content">
+                    <h3>Cyberpunk 2077</h3>
+                    <p class="price">$49.79</p>
+                    <button class="add-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="games/rdr2.png" class="game-image">
+                <div class="card-content">
+                    <h3>RDR 2</h3>
+                    <p class="price">$39.59</p>
+                    <button class="add-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="games/gtav.webp" class="game-image">
+                <div class="card-content">
+                    <h3>GTA V</h3>
+                    <p class="price">$16.50</p>
+                    <button class="add-btn">ADD TO CART</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

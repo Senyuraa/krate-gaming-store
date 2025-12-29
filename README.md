@@ -1,5 +1,9 @@
 # 🎮 KRATE — Next-Gen Game Store
 
+<p align="center">
+  <img src="preview.png" width="800">
+</p>
+
 KRATE is a modern, high-performance **game store frontend** inspired by platforms like **Steam** and **Epic Games**.  
 It focuses on **smooth animations**, **cinematic presentation**, and a **clean navy-blue UI** — built using pure **HTML, CSS, and JavaScript**.
 
